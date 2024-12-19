@@ -1,5 +1,8 @@
 # **Weather App - Documentação do Projeto**
 
+![image](https://github.com/user-attachments/assets/c94b6c69-d69b-4e20-a99b-ba99cac9cd63)
+
+
 ## Descrição
 
 O **Weather App** é uma aplicação de previsão do tempo desenvolvida com **React** no frontend e **Node.js** com **Express** no backend. A aplicação permite que os usuários consultem a previsão do tempo atual e a previsão para os próximos 5 dias. Ela utiliza a API do **OpenWeather** para obter as informações meteorológicas.
