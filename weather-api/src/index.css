@@ -12,7 +12,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(to right, #517c85, #0083b0); /* Gradiente suave */
-  color: #333; /* Cor padrão do texto */
+  color: #170780; /* Cor padrão do texto */
   line-height: 1.6; /* Altura de linha para melhor legibilidade */
   min-height: 100vh; /* Garante altura mínima */
   display: flex;
@@ -42,7 +42,7 @@ a:hover {
 /* Container principal */
 .container {
   max-width: 1000px;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   text-align: center;
 }
@@ -59,7 +59,7 @@ input {
 }
 
 button {
-  background-color: #8b0000;
+  background-color: #0817c1;
   border: 0;
   padding: 15px;
   border-radius: 0 20px 20px 0px;

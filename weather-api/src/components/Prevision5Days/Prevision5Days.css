@@ -21,9 +21,9 @@ h3 {
 
 .weather-item {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(104, 153, 236, 0.8);
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     flex: 1 1 150px; /* Flexível, com largura mínima de 150px */
     box-sizing: border-box; /* Garante que o padding não afete o tamanho do item */
 }
