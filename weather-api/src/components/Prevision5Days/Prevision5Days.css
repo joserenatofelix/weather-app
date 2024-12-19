@@ -1,0 +1,85 @@
+.weather-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.weather-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.weather-item {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1 1 150px; /* Flexível, com largura mínima de 150px */
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho do item */
+}
+
+.weather-item img {
+    width: 80px;
+    height: 80px;
+}
+
+.forecast-day, .forecast-description {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.forecast-day {
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    /* Para telas de até 1024px, como tablets */
+    .weather-item {
+        flex: 1 1 200px; /* Largura mínima de 200px */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Para telas de até 768px, como tablets em modo retrato */
+    .weather-item {
+        flex: 1 1 180px; /* Largura mínima de 180px */
+    }
+}
+
+@media (max-width: 600px) {
+    /* Para telas de até 600px, como celulares */
+    .weather-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; /* Aumenta o espaçamento entre os itens */
+    }
+
+    .weather-item {
+        width: 90%; /* Tornar os itens quase 100% da largura da tela */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Ajuste no tamanho da fonte para cabeçalhos em telas pequenas */
+    }
+}
+
+@media (max-width: 400px) {
+    /* Para telas muito pequenas */
+    .weather-list {
+        gap: 20px; /* Aumenta o espaço entre os itens em telas pequenas */
+    }
+
+    .weather-item {
+        width: 100%; /* Ocupa 100% da largura da tela */
+    }
+}

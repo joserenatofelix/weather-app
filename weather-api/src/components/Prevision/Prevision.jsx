@@ -1,6 +1,10 @@
-import './WatherInformations.css'
+import './Prevision.css';
 
-function WeatherInformations({ weather }) {
+function Prevision({ weather }) {
+    // Verifica se os dados do clima existem
+    if (!weather) {
+        return <div>Carregando...</div>;  // Exibe um texto enquanto os dados não chegam
+    }
 
     return (
         <div className='weather-container'>
@@ -22,4 +26,4 @@ function WeatherInformations({ weather }) {
     );
 }
 
-export default WeatherInformations;
+export default Prevision;
