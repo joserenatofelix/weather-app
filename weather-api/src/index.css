@@ -11,7 +11,8 @@
 /* Estilo do corpo da página */
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to right, #517c85, #0083b0); /* Gradiente suave */
+  background: url('assets/imagem.jpg') no-repeat center center fixed; /* Imagem de fundo */
+  background-size: cover; /* Cobrir toda a tela */
   color: #170780; /* Cor padrão do texto */
   line-height: 1.6; /* Altura de linha para melhor legibilidade */
   min-height: 100vh; /* Garante altura mínima */
